@@ -157,7 +157,8 @@
 
     // We use scale Y, So usually when we use scale, the lement scales in all of directions so X and Y. 
     // But if we do scale Y, well, then the scale only occurs in the Y direction, so from top to bottom.
-    &__item:hover::before {
+    &__item:hover::before,
+    &__item--active::before {
         transform: scaleY(1);
         width: 100%;
     }
@@ -169,6 +170,10 @@
         text-transform: uppercase;
         display: block;
         padding: 1.5rem 3rem;
+
+        // To make text visible when we hover it
+        position: relative;
+        z-index: 10;  // Z-index only works if we spesify the position
 
         // TO make icons and text align, not to much to the left or right or top or buttom due to the size of the icons
         display: flex;
