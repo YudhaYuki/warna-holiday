@@ -29,11 +29,18 @@
 
     // "We dont want element to grow if there is some space" "not shrink if there is no enough space" "But we always want to keep it at 18%"
     flex: 0 0 18%;  
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; // To push legal text to button and make space in betwen icons and it
 }
 
 .hotel-view {
     background-color: #fff;
+
+    // Just testing purposes
     background-color: orangered;
+    height: 80rem;
 
     // The element should grow as much as it can
     flex: 1;
