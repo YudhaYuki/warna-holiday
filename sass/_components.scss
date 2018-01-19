@@ -143,6 +143,10 @@
         text-transform: uppercase;
         display: block;
         padding: 1.5rem 3rem;
+
+        // TO make icons and text align, not to much to the left or right or top or buttom due to the size of the icons
+        display: flex;
+        align-items: center;
     }
 
     &__icon {
