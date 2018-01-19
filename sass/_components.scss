@@ -151,7 +151,8 @@
         transform: scaleY(0);
         // transform-origin: bottom; // it starts scaling from bottom, try it...
         transition: transform .2s,
-                    width .4s cubic-bezier(1,0,0,1) .2s; // The purpose is to let it scale middle to up and down, and then to the width of the navigaton button.
+                    width .4s cubic-bezier(1,0,0,1) .2s, // The purpose is to let it scale middle to up and down, and then to the width of the navigaton button.
+                    background-color .1s;
     }
 
 
@@ -161,6 +162,10 @@
     &__item--active::before {
         transform: scaleY(1);
         width: 100%;
+    }
+
+    &__item:active::before {
+        background-color: var(--color-primary-light);
     }
 
     &__link:link,
