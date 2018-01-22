@@ -214,3 +214,43 @@
         display: block; // or inline block this avoid having a little space underneath an image, which happens when we leave it as an inline element
     }
 }
+
+//////////////////////////////////////////// HOTEL OVERVIEW ////////////////////////////////////////////
+
+.overview {
+    display: flex;
+    // justify-content: space-between;
+    // we cant use this because it will only create space between those content equally,
+    // To solve this, we can use "margin-right: auto;" (Such as for example in  &__icon-star element)
+
+    &__heading {
+
+    }
+
+    &__stars {
+        margin-right: auto;
+    }
+
+    &__icon-star,
+    &__icon-location {
+        width: 1.75rem;
+        height: 1.75rem;
+        fill: var(--color-primary);
+    }
+
+    &__location {
+        
+    }
+
+    &__rating {
+
+    }
+
+    &__rating-average {
+
+    }
+
+    &__rating-count {
+
+    }
+}
