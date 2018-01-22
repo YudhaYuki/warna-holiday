@@ -201,3 +201,16 @@
     text-align: center;
     padding: 2.5rem;
 }
+
+
+//////////////////////////////////////////// GALLERY ////////////////////////////////////////////
+
+.gallery {
+
+    display: flex; // To put the image side by side
+
+    &__photo {
+        width: 100%; // We always have to define the width/height in %, so that the image stay fluid.
+        display: block; // or inline block this avoid having a little space underneath an image, which happens when we leave it as an inline element
+    }
+}
