@@ -373,9 +373,10 @@
     color: var(--color-grey-dark-3);
 
     display: flex;
+    align-items: center;
 
     &__count {
-
+        margin-right: auto; // the margin which was automatically calculated to push the recommend__friends box all the way to the right side
     }
 
     &__friends {
