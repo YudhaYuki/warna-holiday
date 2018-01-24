@@ -327,10 +327,6 @@
 }
 
 
-
-
-
-
 //////////////////////////////////////////// LIST ////////////////////////////////////////////
 
 .list {
@@ -346,11 +342,19 @@
 
     &__item {
         flex: 0 0 50%;
+        margin-bottom: .7rem;
+    }
+
+    &__item:before {
+        content: "";
+        display: inline-block;
+        height: 2rem;
+        width: 2rem;
+        margin-right: .7rem;
+        background-image: url(../img/chevron-thin-right.svg);
+
     }
 }
-
-
-
 
 
 
