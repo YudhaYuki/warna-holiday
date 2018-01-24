@@ -16,6 +16,7 @@
         //  Moving search bar to the most right side by using ORDER property when  <500
         order: 1;
         flex: 0 0 100%;
+        background-color: var(--color-grey-light-2);
     }
 
     &__input {
