@@ -383,6 +383,7 @@
     }
 
     &__photo {
+        box-sizing: content-box; // box-sizing: border-box; icnludes the padding & the border into the width and height of the element, but in this case we want the border to be added on top of our height and the width, so we set it to the default (content-box)
         height: 4rem;
         width: 4rem;
         border-radius: 50%;
