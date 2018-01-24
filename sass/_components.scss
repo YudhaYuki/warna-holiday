@@ -12,6 +12,9 @@
     align-items: center;
     justify-content: center;
 
+    @media only screen and (max-width:$bp-smallest) {
+        order: 1;
+    }
 
     &__input {
         font-family: inherit; // Which on input element doesn't inherit the font family of the global document, so we have to automatically set it into inherit
