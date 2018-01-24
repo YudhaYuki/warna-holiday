@@ -40,12 +40,11 @@
 
     // Just testing purposes
     // background-color: orangered;
-    height: 80rem;
+    // height: 80rem;
 
     // The element should grow as much as it can
     flex: 1;
 }
-
 
 .detail {
     display: flex;
@@ -55,6 +54,7 @@
 }
 
 .description {
+    font-size: 1.4rem;
     background-color: #fff;
     box-shadow: var(--shadow-light);
     padding: 3rem;
