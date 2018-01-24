@@ -61,7 +61,7 @@ body {
   align-items: center; }
   @media only screen and (max-width: 31.25em) {
     .header {
-      font-size: 50%; } }
+      flex-wrap: wrap; } }
 
 .content {
   display: flex; }

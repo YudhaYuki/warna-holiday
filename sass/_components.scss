@@ -13,6 +13,7 @@
     justify-content: center;
 
     @media only screen and (max-width:$bp-smallest) {
+        //  Moving search bar to the most right side by using ORDER property when  <500
         order: 1;
     }
 
