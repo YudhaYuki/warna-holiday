@@ -61,7 +61,8 @@ body {
   align-items: center; }
   @media only screen and (max-width: 31.25em) {
     .header {
-      flex-wrap: wrap; } }
+      flex-wrap: wrap;
+      height: 12rem; } }
 
 .content {
   display: flex; }
@@ -125,7 +126,8 @@ body {
   justify-content: center; }
   @media only screen and (max-width: 31.25em) {
     .search {
-      order: 1; } }
+      order: 1;
+      flex: 0 0 100%; } }
   .search__input {
     font-family: inherit;
     font-size: inherit;
