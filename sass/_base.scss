@@ -20,6 +20,10 @@
     --line: 1px  solid var(--color-grey-light-2);
 }
 
+
+// We use SASS variable because media queries does not allow CSS variable
+$bp-largest: 75em; // 1200px : 16
+
 * {
     margin: 0;
     padding: 0;
